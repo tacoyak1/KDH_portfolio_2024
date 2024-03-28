@@ -411,7 +411,15 @@ ul.list-check li::before {
 	background-size: cover;
 	padding: 0;
 	position: relative;
+    background-attachment: fixed;
 }
+
+/* tablet & mobile device : ~ 1024px */
+@media ( max-width: 1024px ) {
+  #home{transform:translateZ(0);}
+}
+
+
 /* #home:before {
 	content: "";
 	background-color: rgba(26, 30, 35, 0.85);
