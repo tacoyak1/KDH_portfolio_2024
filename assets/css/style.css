@@ -1316,6 +1316,9 @@ Resume Timeline
     margin: 0 32px !important;
 }
 
+.videolink {
+    margin: 0 32px !important;
+}
 
 .links a:hover i {
    color:  #fff;
